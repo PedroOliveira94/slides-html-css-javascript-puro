@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider HTML/CSS/JAVASCRIPT</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="content-slides">
+
+        <div class="slides">
+
+            <input class="input" type="radio" name="slide" id="slide1" checked><!--especifica que um elemento <input> deve ser pré- selecionado, para iniciar o loop-->
+            <input class="input" type="radio" name="slide" id="slide2">
+            <input class="input" type="radio" name="slide" id="slide3">
+            <input class="input" type="radio" name="slide" id="slide4">
+            <input class="input" type="radio" name="slide" id="slide5">
+
+       
+        <div class="slide s1"><!-- ~ s1 é o ponto de partida onde começo direcionar as fotos-->
+            <img src="/imagens/baia-dos-porcos.jpg" alt="fotos">
+        </div>
+
+        <div class="slide">
+            <img src="/imagens/cachoeira.jpg" alt="fotos">
+        </div>
+
+        <div class="slide">
+            <img src="/imagens/doca.jpg" alt="fotos">
+        </div>
+
+        <div class="slide">
+            <img src="/imagens/lago.jpg" alt="fotos">
+        </div>
+
+        <div class="slide">
+            <img src="/imagens/rio.jpg" alt="fotos">
+        </div>
+
+
+       </div><!--Fim da Class="Slides"-->
+
+    </div> <!--Fim do Content-Slides-->
+    <div class="navigation">
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+    </div>   
+    <script src="/script.js"></script>
+</body>
+</html>
